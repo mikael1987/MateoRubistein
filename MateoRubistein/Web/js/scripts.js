@@ -48,6 +48,19 @@
 	$('.portfolio-box').magnificPopup({
 		type: 'image'
 	});
+
+	//Magnific popup calls
+	$('.portfolio').magnificPopup({
+		type: 'image',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0, 1]
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+		}
+	});
     /*
 Carousel
 */

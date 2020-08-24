@@ -157,7 +157,14 @@ sub {
 sup {
     top: -0.5em;
 }
-
+a.color {
+    color: #2e87e0 !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+.gray{
+    color:gray;
+}
 a {
     color: #f4623a;
     text-decoration: none;
@@ -10723,7 +10730,7 @@ header.masthead {
 @media (min-width: 992px) {
     header.masthead {
         min-height: 1rem;
-        padding-top: 10.5rem;
+        padding-top: 6.5rem;
         padding-bottom: 0;
     }
 
