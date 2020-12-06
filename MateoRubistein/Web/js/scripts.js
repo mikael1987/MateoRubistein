@@ -86,5 +86,5 @@ Carousel
 	//});
 
 
-
+	$('#nav-bar').load('nav-bar.html');
 }) (jQuery); // End of use strict
