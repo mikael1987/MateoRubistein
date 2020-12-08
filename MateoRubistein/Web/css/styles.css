@@ -4286,14 +4286,19 @@ input[type=button].btn-block {
 .tab-content > .active {
     display: block;
 }
-
+/*banner de Mateo Rubistein del arriba del todo. */
 .navbar {
-    position: relative;
+    position: relative; 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem;
+    background-image: url("../assets/img/inicio/banner-mateo.jpg"); /*Aqui esta la imagen del banner*/
+    background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
     .navbar .container,
@@ -10651,7 +10656,7 @@ hr.light {
     }
 
     #mainNav .navbar-nav .nav-item .nav-link {
-        color: #6c757d;
+        color: black; /*Color de fuente en menu tres lineas*/
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 0.9rem;
@@ -10692,24 +10697,24 @@ hr.light {
         #mainNav .navbar-nav .nav-item:last-child .nav-link {
             padding-right: 0;
         }
-
+        /*Color de background del banner al bajar*/
         #mainNav.navbar-scrolled {
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
             background-color:rgb(10 10 42) !important;
         }
-
+        /**/
             #mainNav.navbar-scrolled .navbar-brand {
                 color: #fff;
             }
-
+            /*Hover es cuando le pasas por encmia*/
                 #mainNav.navbar-scrolled .navbar-brand:hover {
                     color: #black;
                 }
-
+                /*Color de las letras del banner en scrolled*/
             #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-                color: #fff;
+                color: #black;
             }
-
+                
                 #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
                     color: #black;
                 }
@@ -10799,11 +10804,9 @@ header.masthead {
 .fuente-titulo-portada
 {
     font-family:none !important;
-    a:hover    
 }
 .fuente-titulo-portada.a:hover
 {
-    color:r
 }
 
 
