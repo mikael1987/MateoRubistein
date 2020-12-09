@@ -4357,12 +4357,12 @@ input[type=button].btn-block {
     flex-grow: 1;
     align-items: center;
 }
-
+/*Aqui se controla el toggler, las tres lineas de menu que aparecen al minimizar el navegador*/
 .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: transparent;
+    background-color: #e0dcf1;
     border: 1px solid transparent;
     border-radius: 0.25rem;
 }
