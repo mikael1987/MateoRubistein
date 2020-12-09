@@ -4312,11 +4312,11 @@ input[type=button].btn-block {
         align-items: center;
         justify-content: space-between;
     }
-
+    /*Esto controla la marca del navbar*/
 .navbar-brand {
     display: inline-block;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
+    /*padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;  Esto hace padding a la marca*/
     margin-right: 1rem;
     font-size: 2.25rem;
     line-height: inherit;
@@ -8314,9 +8314,10 @@ button.bg-dark:focus {
     padding: 1rem !important;
 }
 
+ /*pt3 es el padding top de brand*/
 .pt-3,
 .py-3 {
-    padding-top: 1rem !important;
+    padding-top: 0rem !important;
 }
 
 .pr-3,
@@ -8324,9 +8325,10 @@ button.bg-dark:focus {
     padding-right: 1rem !important;
 }
 
+/*pb3 es el padding bottom de brand*/
 .pb-3,
 .py-3 {
-    padding-bottom: 1rem !important;
+    padding-bottom: 0rem !important;
 }
 
 .pl-3,
@@ -10648,9 +10650,9 @@ hr.light {
     background-color: #fff;
     transition: background-color 0.2s ease;
 }
-
+    /*Fuente de la marca brand*/
     #mainNav .navbar-brand {
-        font-family: none;
+        font-family: 'Raleway', none;
         font-weight: 700;
         color: #212529;
     }
@@ -10676,13 +10678,13 @@ hr.light {
         box-shadow: none;
         background-color: transparent;
     }
-
+        /*Color de marca MATEO RUBISTEIN sin bajar*/
         #mainNav .navbar-brand {
-            color: #212529;
+            color: black;
         }
 
             #mainNav .navbar-brand:hover {
-                color: #343a40;
+                color: #000080;
             }
 
         #mainNav .navbar-nav .nav-item .nav-link {
@@ -10700,11 +10702,11 @@ hr.light {
         /*Color de background del banner al bajar*/
         #mainNav.navbar-scrolled {
             box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-            background-color:rgb(10 10 42) !important;
+            background-color:white !important;
         }
-        /**/
+        /*Color de letras MATEO RUBISTEIN al bajar*/
             #mainNav.navbar-scrolled .navbar-brand {
-                color: #fff;
+                color: black;
             }
             /*Hover es cuando le pasas por encmia*/
                 #mainNav.navbar-scrolled .navbar-brand:hover {
