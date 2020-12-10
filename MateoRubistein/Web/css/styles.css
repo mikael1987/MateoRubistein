@@ -489,6 +489,8 @@ mark,
     height: auto;
 }
 
+
+
 .height-20per {
     /*    height: 30%;*/
 }
@@ -4286,7 +4288,7 @@ input[type=button].btn-block {
 .tab-content > .active {
     display: block;
 }
-/*banner de Mateo Rubistein del arriba del todo. */
+/*banner navbar de Mateo Rubistein del arriba del todo. */
 .navbar {
     position: relative; 
     display: flex;
@@ -4294,7 +4296,7 @@ input[type=button].btn-block {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    background-image: url("../assets/img/inicio/banner-mateo.jpg"); /*Aqui esta la imagen del banner*/
+    /*background-image: url("../assets/img/inicio/banner-mateo.jpg"); /*Aqui esta la imagen del banner*/
     background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -10828,5 +10830,10 @@ header.masthead {
 
 .font-raleway
 {
-     font-family: 'Raleway', sans-serif !important;
+     font-family: 'Raleway', sans-serif !important,"Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.imag-brand {
+    max-width: 100%;
+    
 }
