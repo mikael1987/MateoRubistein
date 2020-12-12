@@ -10843,3 +10843,37 @@ header.masthead {
     max-width: 100%;
     
 }
+
+.mood {
+    display: inline-block;
+    margin: 1rem 0 0;
+    position: relative;
+    overflow: hidden;
+    width: 100%
+}
+
+    .mood img {
+        width: 100%
+    }
+
+    .mood .mood__aspect-ratio {
+        height: auto;
+        width: 100%
+    }
+
+    .mood .mood__image {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 0
+    }
+
+    .mood.mood--big {
+        height: 100em;
+        height: 52.5vw;
+        background-size: cover;
+        max-height: 520px;
+        margin-top: 0;
+        line-height: 0
+    }
