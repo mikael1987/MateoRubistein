@@ -10731,7 +10731,8 @@ hr.light {
 }
 
 header.masthead {
-    padding-top: 10rem;
+    /*Padding con respecto al indice de Inicio */
+    /*padding-top: 10rem;*/
     padding-bottom: calc(10rem - 4.5rem);
     background: linear-gradient(to bottom, #fff 0%, #fff 100%);
     background-position: center;
@@ -10877,3 +10878,11 @@ header.masthead {
         margin-top: 0;
         line-height: 0
     }
+
+    hcab, .hcab {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Josefin Slab', serif;'Montserrat', sans-serif; 'Raleway', none;
+    font-weight: 500;
+    line-height: 1.2;
+}
