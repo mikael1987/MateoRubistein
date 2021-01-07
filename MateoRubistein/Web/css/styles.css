@@ -167,7 +167,7 @@ a.color {
     color:gray;
 }
 a {
-    color: #f4623a;
+    color: #3800ff;
     text-decoration: none;
     background-color: transparent;
 }
@@ -10851,7 +10851,7 @@ header.masthead {
     position: relative;
     overflow: hidden;
     width: 100%
-}
+    }
 
     .mood img {
         width: 100%
@@ -10878,11 +10878,3 @@ header.masthead {
         margin-top: 0;
         line-height: 0
     }
-
-    hcab, .hcab {
-    margin-bottom: 0.5rem;
-    font-size: 1.7rem;
-    font-family: 'Raleway', none;
-    font-weight: 500;
-    line-height: 1.2;}
-}
